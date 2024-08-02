@@ -1,0 +1,30 @@
+
+.login-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.login-row{
+    background-color: bisque;
+}
+
+.login-div-image{
+    & .login-image{
+        width: 100%;
+        object-fit:fill;
+        max-height: 400px;
+    }
+}
+
+.login-form{
+    min-height: 100%;
+}
+
+@media (min-width : 992px){
+    .login-button{
+        width: 50%;
+    }
+}
+
+
